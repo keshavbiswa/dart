@@ -6,5 +6,11 @@
   hr.my-4
   p
     | It uses modern APIs to search for all the accounts linked to the number.
-  a.btn.btn-primary.btn-lg[href="#" role="button"]
-    | Learn more
+  .row
+    = simple_form_for Contact.new do |f|
+      .col
+        = f.input :country
+      .col
+        = f.input :number
+      .col
+        = f.submit "Search", class: 'btn btn-lg btn-primary'

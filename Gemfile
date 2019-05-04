@@ -35,5 +35,4 @@ gem 'bootstrap', '~> 4.3.1'
 
 # forms
 gem 'simple_form', '~> 4.1'
-
-# Overcommit
+gem 'country_select'
