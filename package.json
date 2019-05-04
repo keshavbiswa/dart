@@ -2,8 +2,10 @@
   "name": "dart",
   "private": true,
   "dependencies": {},
-  "scripts": {
-    "precommit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "app/**/*.{js,es6,jsx}": [
