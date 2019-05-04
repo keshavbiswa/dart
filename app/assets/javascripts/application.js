@@ -14,4 +14,4 @@
 //= require activestorage
 //= require_tree .
 
-console.log("hello");
+console.log("hello world")
