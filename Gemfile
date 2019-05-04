@@ -16,6 +16,7 @@ group :development, :test do
   gem "rubocop", "~> 0.63", require: false
   gem 'rubocop-performance'
   gem "rubocop-rspec", "~> 1.31"
+  gem 'overcommit', '~> 0.48.0'
 end
 
 group :development do
@@ -35,3 +36,4 @@ gem 'bootstrap', '~> 4.3.1'
 # forms
 gem 'simple_form', '~> 4.1'
 
+# Overcommit
