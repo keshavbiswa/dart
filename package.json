@@ -1,5 +1,19 @@
 {
   "name": "dart",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "app/**/*.{js,es6,jsx}": [
+      "./node_modules/prettier/bin/prettier.js --trailing-comma --single-quote es5 --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.6",
+    "prettier": "^1.17.0"
+  }
 }
