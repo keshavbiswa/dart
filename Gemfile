@@ -27,3 +27,8 @@ end
 
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+# Jquery and bootstrap
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'bootstrap', '~> 4.3.1'
+
