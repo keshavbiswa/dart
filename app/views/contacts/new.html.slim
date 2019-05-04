@@ -1,0 +1,5 @@
+.container.mt-5
+  = simple_form_for(@contact) do |f|
+    = f.input :country, selected: 'IN'
+    = f.input :number
+    = f.submit 'Search', class: 'btn btn-primary'
